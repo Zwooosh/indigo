@@ -1,6 +1,6 @@
 # main text of home
 name: Sebastiaan Scheers
-bio: This is where you'd find my super amazing portfolio. If I had one...</br>In the meantime, this will have to do!
+bio: Freelance Front-end developer
 
 # twitter summary info
 description: A blog about my front-end adventures
@@ -22,7 +22,7 @@ url: http://sebastiaanscheers.nl
 permalink: /:title/
 
 # To enable google analytics, supply your token below
-analytics-google: 'UA-98350630-1'
+analytics-google: "UA-98350630-1"
 
 # To enable piwik tracking, supply your url & site ID below
 # analytics-piwik-url: 'piwik.my-host.com'
@@ -30,15 +30,15 @@ analytics-google: 'UA-98350630-1'
 
 # if you don't want comments in your posts, leave categories empty
 disqus:
-  shortname: mydisqus # enter this from your disqus account
-  categories: [] # only show disqus for posts that have these categories
+    shortname: mydisqus # enter this from your disqus account
+    categories: [] # only show disqus for posts that have these categories
 
 # if you don't have any of social below, comment the line
-facebook: sebas.scheers
+# facebook: sebas.scheers
 twitter: Zwooosh
 # google: mygoogle
 instagram: Zeebaarstiaan
-pinterest: Zwooosh
+# pinterest: Zwooosh
 linkedin: sebasscheers
 # youtube: myyoutube
 spotify: Zeebaarstiaan
@@ -46,7 +46,7 @@ github: Zwooosh
 # lastfm: mylastfm
 # stackoverflow: 7044681/mystackoverflow
 # quora: userquora
-reddit: Zwooosh
+# reddit: Zwooosh
 # medium: medium
 # vimeo: myvimeo
 # email: zwooosh@gmail.com
@@ -73,7 +73,7 @@ projects: false
 
 # if you don't need "about" or "blog", comment them out below
 about: false
-blog: true
+blog: false
 
 # do you want to show the "read time" of the posts?
 read-time: true
@@ -94,10 +94,10 @@ show-author: true
 animation: true
 
 gems:
-  - jekyll-seo-tag
-  - jekyll-gist
-  - jekyll-feed
-  - jemoji
+    - jekyll-seo-tag
+    - jekyll-gist
+    - jekyll-feed
+    - jemoji
 
 jekyll-mentions:
     base_url: https://github.com
